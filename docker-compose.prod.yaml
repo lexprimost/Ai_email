@@ -37,7 +37,7 @@ services:
       retries: 3
       start_period: 10s
     ports:
-      - 3000:3000
+      - 7000:3000
 
   migrations:
     build:
